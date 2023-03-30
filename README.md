@@ -1,5 +1,5 @@
 # CDOSendmail
-Sendmail byuse CDO.Message (implemented by Delphi)
+CDO.Messageを利用したメール送信（添付ファイルを含む）
 
 # CDO.Messageを利用したメール送信ユニット
 CDO.Messageを利用したメール送信のDelphiユニットです。
