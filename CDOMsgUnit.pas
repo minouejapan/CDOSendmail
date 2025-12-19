@@ -79,7 +79,8 @@ begin
   MailData.Authenticate := Authenticate.ItemIndex + 1;
   MailData.Attachment   := Attachment.Text;
 
-  SendMail(MailData); // CDOSendmail Unit
+  if not SendMail(MailData) then // CDOSendmail Unit
+    MessageBox(Handle, 'メールを送信できませんでした.', '送信エラー', 0);
 end;
 
 procedure TCDOMessage.FormCloseQuery(Sender: TObject; var CanClose: Boolean);

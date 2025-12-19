@@ -23,11 +23,8 @@ object CDOMessage: TCDOMessage
     ActivePage = TabSheet1
     Align = alClient
     TabOrder = 0
-    ExplicitWidth = 529
-    ExplicitHeight = 460
     object TabSheet1: TTabSheet
       Caption = #12513#12540#12523
-      ExplicitLeft = 8
       object Label7: TLabel
         Left = 8
         Top = 20
@@ -107,10 +104,6 @@ object CDOMessage: TCDOMessage
     object TabSheet2: TTabSheet
       Caption = #36865#20449#35373#23450
       ImageIndex = 1
-      ExplicitLeft = 0
-      ExplicitTop = 30
-      ExplicitWidth = 521
-      ExplicitHeight = 430
       object Label1: TLabel
         Left = 16
         Top = 20
